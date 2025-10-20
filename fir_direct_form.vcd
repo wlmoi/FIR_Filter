@@ -1,0 +1,177 @@
+$date
+	Mon Oct 20 10:16:23 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_fir_direct_form $end
+$var wire 1 ! o_data_valid $end
+$var wire 19 " o_data_sum [18:0] $end
+$var parameter 32 # COEFF_FRACTION_WIDTH $end
+$var parameter 32 $ COEFF_WIDTH $end
+$var parameter 32 % DATA_WIDTH $end
+$var reg 1 & clk $end
+$var reg 16 ' i_data [15:0] $end
+$var reg 1 ( reset $end
+$scope module dut $end
+$var wire 1 & clk $end
+$var wire 16 ) i_data [15:0] $end
+$var wire 1 ! o_data_valid $end
+$var wire 1 ( reset $end
+$var wire 19 * o_data_sum [18:0] $end
+$var wire 32 + mul3_out [31:0] $end
+$var wire 32 , mul2_out [31:0] $end
+$var wire 32 - mul1_out [31:0] $end
+$var wire 32 . mul0_out [31:0] $end
+$var wire 19 / add1_out [18:0] $end
+$var wire 18 0 add0_out [17:0] $end
+$var parameter 32 1 COEFF_FRACTION_WIDTH $end
+$var parameter 32 2 COEFF_WIDTH $end
+$var parameter 32 3 DATA_WIDTH $end
+$var parameter 16 4 H0 $end
+$var parameter 16 5 H1 $end
+$var parameter 16 6 H2 $end
+$var parameter 16 7 H3 $end
+$var reg 1 8 data_valid_reg $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000000000000 7
+b10000000000000 6
+b10000000000000 5
+b1000000000000 4
+b10000 3
+b10000 2
+b1111 1
+b10000 %
+b10000 $
+b1111 #
+$end
+#0
+$dumpvars
+08
+b0 0
+b0 /
+b0 .
+b0 -
+b0 ,
+b0 +
+b0 *
+b0 )
+1(
+b0 '
+0&
+b0 "
+0!
+$end
+#5000
+1&
+#10000
+0&
+0(
+#15000
+1!
+18
+1&
+#20000
+0&
+b1100100 '
+b1100100 )
+#25000
+b1100 "
+b1100 *
+b1100 /
+b1100 0
+b1100100000000000000 .
+1&
+#30000
+0&
+b11001000 '
+b11001000 )
+#35000
+b110010 "
+b110010 *
+b110010 /
+b110010 0
+b11001000000000000000 .
+b11001000000000000000 -
+1&
+#40000
+0&
+b100101100 '
+b100101100 )
+#45000
+b1110000 "
+b1110000 *
+b1010111 0
+b1110000 /
+b100101100000000000000 .
+b110010000000000000000 -
+b11001000000000000000 ,
+1&
+#50000
+0&
+b110010000 '
+b110010000 )
+#55000
+b1111101 0
+b10101111 /
+b10111011 "
+b10111011 *
+b110010000000000000000 .
+b1001011000000000000000 -
+b110010000000000000000 ,
+b1100100000000000000 +
+1&
+#60000
+0&
+b0 '
+b0 )
+#65000
+b1100100 0
+b10101111 /
+b11001000 "
+b11001000 *
+b0 .
+b1100100000000000000000 -
+b1001011000000000000000 ,
+b11001000000000000000 +
+1&
+#70000
+0&
+#75000
+b0 0
+b1100100 /
+b10001001 "
+b10001001 *
+b0 -
+b1100100000000000000000 ,
+b100101100000000000000 +
+1&
+#80000
+0&
+#85000
+b0 /
+b110010 "
+b110010 *
+b0 ,
+b110010000000000000000 +
+1&
+#90000
+0&
+#95000
+b0 "
+b0 *
+b0 +
+1&
+#100000
+0&
+#105000
+1&
+#110000
+0&

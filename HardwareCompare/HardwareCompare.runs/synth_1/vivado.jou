@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Mon Oct 20 10:48:13 2025
+# Process ID         : 26272
+# Current directory  : D:/FIR_Filter/HardwareCompare/HardwareCompare.runs/synth_1
+# Command line       : vivado.exe -log tb_fir_direct_form.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tb_fir_direct_form.tcl
+# Log file           : D:/FIR_Filter/HardwareCompare/HardwareCompare.runs/synth_1/tb_fir_direct_form.vds
+# Journal file       : D:/FIR_Filter/HardwareCompare/HardwareCompare.runs/synth_1\vivado.jou
+# Running On         : DESKTOP-3S5LN80
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
+# CPU Frequency      : 2592 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 17095 MB
+# Swap memory        : 28991 MB
+# Total Virtual      : 46086 MB
+# Available Virtual  : 24938 MB
+#-----------------------------------------------------------
+source tb_fir_direct_form.tcl -notrace
